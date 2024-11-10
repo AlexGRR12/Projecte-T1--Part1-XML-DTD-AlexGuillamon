@@ -1,0 +1,96 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE ModelosLamborghinis SYSTEM "ProjecteT1-P1-AlexGuillamon.dtd">
+
+<ModelosLamborghinis>
+
+    <modelo id="aventador">
+        <nombre>Lamborghini Aventador</nombre>
+        <año>2022</año>
+        <precio>393000</precio>
+        <velocidadMax>350</velocidadMax>
+        <motor>V12</motor>
+        <potencia>770</potencia>
+        <colores>
+            <color>Rojo</color>
+            <color>Negro</color>
+            <color>Amarillo</color>
+        </colores>
+        <imagen>https://www.lamborghini.com/sites/it-en/files/DAM/lamborghini/facelift_2019/model_gw/aventador/2023/02_09_refresh/aven_gate_s_02_m.jpg</imagen>
+        <fabricanteRef ref="lamborghini"/>
+    </modelo>
+
+
+    <modelo id="huracan">
+        <nombre>Lamborghini Huracán</nombre>
+        <año>2021</año>
+        <precio>215000</precio>
+        <velocidadMax>325</velocidadMax>
+        <motor>V10</motor>
+        <potencia>640</potencia>
+        <colores>
+            <color>Blanco</color>
+            <color>Azul</color>
+        </colores>
+        <imagen>https://cdn.autobild.es/sites/navi.axelspringer.es/public/bdc/dc/fotos/Lamborghini_Huracan_STO09_0.jpg?tf=3840x</imagen>
+        <fabricanteRef ref="lamborghini"/>
+    </modelo>
+
+
+    <modelo id="urus">
+        <nombre>Lamborghini Urus</nombre>
+        <año>2020</año>
+        <precio>230000</precio>
+        <velocidadMax>305</velocidadMax>
+        <motor>V8</motor>
+        <potencia>650</potencia>
+        <colores>
+            <color>Gris</color>
+            <color>Negro</color>
+        </colores>
+        <imagen>https://carnovo.com/wp-content/uploads/2017/12/lamborguini-urus-2018-1200x675.jpg</imagen>
+        <fabricanteRef ref="lamborghini"/>
+    </modelo>
+
+
+    <modelo id="sian">
+        <nombre>Lamborghini Sián</nombre>
+        <año>2021</año>
+        <precio>3600000</precio>
+        <velocidadMax>350</velocidadMax>
+        <motor>V12 Híbrido</motor>
+        <potencia>819</potencia>
+        <colores>
+            <color>Verde</color>
+            <color>Dorado</color>
+        </colores>
+        <imagen>https://www.lamborghini.com/sites/it-en/files/DAM/lamborghini/facelift_2019/model_detail/few_off/sian-fkp-37/2023/over_d.jpg</imagen>
+        <fabricanteRef ref="lamborghini"/>
+    </modelo>
+
+
+    <modelo id="veneno">
+        <nombre>Lamborghini Veneno</nombre>
+        <año>2014</año>
+        <precio>4500000</precio>
+        <velocidadMax>355</velocidadMax>
+        <motor>V12</motor>
+        <potencia>750</potencia>
+        <colores>
+            <color>Gris</color>
+            <color>Rojo</color>
+        </colores>
+        <imagen>https://www.lamborghini.com/sites/it-en/files/DAM/lamborghini/masterpieces/veneno/veneno_over_rev_01_m.jpg</imagen>
+        <fabricanteRef ref="lamborghini"/>
+    </modelo>
+
+
+    <fabricante id="lamborghini">
+        <nombre>Lamborghini</nombre>
+        <ubicacion>Italia</ubicacion>
+        <anoFundacion>1963</anoFundacion>
+    </fabricante>
+
+</ModelosLamborghinis>
+
+
+

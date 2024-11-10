@@ -1,0 +1,23 @@
+<!ELEMENT ModelosLamborghinis (modelo+, fabricante+)>
+
+        <!ELEMENT modelo (nombre, año, precio, velocidadMax, motor, potencia, colores, imagen, fabricanteRef)>
+        <!ELEMENT nombre (#PCDATA)>
+        <!ELEMENT año (#PCDATA)>
+        <!ELEMENT precio (#PCDATA)>
+        <!ELEMENT velocidadMax (#PCDATA)>
+        <!ELEMENT motor (#PCDATA)>
+        <!ELEMENT potencia (#PCDATA)>
+        <!ELEMENT colores (color+)>
+        <!ELEMENT color (#PCDATA)>
+        <!ELEMENT imagen (#PCDATA)>
+        <!ELEMENT fabricanteRef (#PCDATA)>
+
+        <!ELEMENT fabricante (nombre, ubicacion, anoFundacion)>
+        <!ELEMENT ubicacion (#PCDATA)>
+        <!ELEMENT anoFundacion (#PCDATA)>
+
+        <!ATTLIST modelo id ID #REQUIRED>
+        <!ATTLIST fabricante id ID #REQUIRED>
+        <!ATTLIST fabricanteRef ref IDREF #REQUIRED>
+
+
